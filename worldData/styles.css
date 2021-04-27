@@ -1,0 +1,128 @@
+body{
+    background-color:#000;
+    font-family: 'Cormorant SC', serif;
+}
+
+.container{
+    width:80%;
+    height:70%;
+    background-color:#eafd5d;
+    position: absolute;
+left:50%;
+top:50%;
+transform: translate(-50%,-50%);
+}
+
+.footer{
+    width:100%;
+    height:20%;
+    background-color:#21201f;
+    position: absolute;
+    top:90%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.heading{
+    position:absolute;
+    left:10%;
+    
+}
+.heading p{
+    margin:8px;
+}
+
+.globe{
+    font-size:4rem;
+}
+
+.title{
+    font-size:3rem;
+    letter-spacing: 1rem;
+
+}
+.caution{
+    font-size:2.1rem;
+    letter-spacing:0.6rem;
+}
+
+.intro{
+    font-size:1.6rem;
+    letter-spacing:0.5rem;
+}
+
+.outro{
+    font-size:1.6rem;
+    letter-spacing:0.2rem;
+}
+
+.container2{
+    position: absolute;
+    left:70%;
+    font-size: 2rem;
+    color:crimson;
+   
+}
+.container2 span{
+    text-align: end;
+}
+
+#country{
+    margin:8px;
+    font-size:1.2rem;
+    color:white;
+background-color:black;
+}
+
+.imgContainer{
+    position:absolute;
+    left:73%;
+    top:35%;
+}
+
+.details{
+    display:none;
+    position:absolute;
+    left:16%;
+    top:18%;
+}
+.name{
+    background-color:black;
+    color:white;
+}
+
+.confirmed{
+    width:200px;height:70px;
+    background-color:orange;
+    margin-right:20px;
+    color:red;
+    font-size:1.5rem;
+    font-weight:bold;
+}
+
+.critical{
+    width:200px;height:70px;
+    background-color:red;
+    margin-right:20px;
+    color:white;
+    font-weight: bold;
+    font-size:1.5rem;
+}
+
+.recovered{
+    width:200px;height:70px;
+    background-color:lightgreen;
+    margin-right:20px;
+    font-weight: bold;
+    font-size:1.5rem;
+color:green;
+
+}
+
+.deaths{
+    width:200px;height:70px;
+    background-color:black;
+    margin-right:20px;
+color:white;
+font-weight: bold;
+font-size:1.5rem;
+}

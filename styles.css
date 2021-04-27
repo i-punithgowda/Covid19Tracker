@@ -1,0 +1,174 @@
+body{
+    margin:0;
+    padding:0;
+    
+}
+
+.body{
+    background-color:peachpuff;
+}
+
+.container{
+background-color: #373a3c;
+height:600px;
+width:900px;
+position: absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+border:8px solid #eec329;
+box-shadow: 6px 7px black;
+border-radius:4px;
+}
+.crown{
+    font-size:3rem;
+    display:inline-block;
+    color:#afae89 
+}
+.intro{
+    color:#afae89;
+    font-size:2rem;
+}
+
+
+.heading{
+    position:absolute;
+    top:23%;
+    left:10%;
+    text-transform:uppercase;
+}
+
+.head{
+    color:white;
+    font-size: 1.8rem;
+    letter-spacing:0.5rem;
+    font-weight:lighter;
+    margin-bottom: 23px;
+}
+
+.subheading{
+    color:#afae89;
+    font-size:3rem;
+    letter-spacing:3rem;
+    margin-bottom: 23px;
+}
+
+.tagLine{
+color:white;
+font-size:1.3rem;
+letter-spacing:0.6rem;
+}
+
+.name{
+background-color:#afae89;
+color:black;
+}
+
+.container2{
+    position: absolute;
+    top:0%;
+    left:61%;
+}
+
+.statewise{
+    text-transform: uppercase;
+    font-size:1.4rem;
+}
+
+.statewise p{
+    color:white;
+    font-size:1.6rem;
+}
+#state{
+    color:crimson;
+    outline:none;
+    border:none;
+    background-color:#afae89;
+    font-size:1.2rem;
+    font-weight:bold;
+    height:30px;
+    border-radius:8px;
+    margin-bottom: 14px;
+}
+
+.details{
+    font-size:1.9rem;
+    color:white;
+    display:none;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.Cinfected{
+    background-color: #efecfa;
+    font-size: 1.5rem;
+    color:#563ac8;
+    width:125px;
+    height:75px;
+}
+
+.Cactive{
+    background-color: #fef1e9;
+    font-size: 1.5rem;
+    color:#f26d20;
+    width:125px;
+    height:75px;
+}
+
+.CRecoveries{
+    background-color: #eaf9f3;
+    font-size: 1.5rem;
+    color:#28c285;
+    width:125px;
+    height:75px;
+}
+
+.Cdeaths{
+    background-color: #fdedf3;
+    font-size:1.5rem;
+    color:#e74782;
+    width:125px;
+    height:75px;
+}
+
+.IndiaData{
+    display:flex;
+    position: absolute;
+    top:78%;
+    left:25%;
+    text-align: center;
+}
+
+.IndiaData div{
+margin-right: 20px;
+border-radius:8px;
+}
+
+.flagIndia{
+    width:100px;
+margin-right: 35px;
+position:relative;
+top:17%;
+}
+
+.worldData{
+  position: absolute;
+top:85%;
+left:81%;
+
+}
+
+.worldData a{
+    text-decoration:none;
+color:white;
+}
+.worldData a:active{
+    background-color:white;
+    color:black;
+transition:0.2s ease;
+}
+
+.worldData a:hover{
+  color:white;
+}
+
+
